@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elecom-instalaciones.vercel.app/sitemap.xml
