@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Antena de televisión y satélite">
+  <rect width="900" height="700" fill="#f5f8fb"/>
+  <path d="M112 552h676" stroke="#d9e3ec" stroke-width="12" stroke-linecap="round"/>
+  <path d="M450 552V168" stroke="#0f2538" stroke-width="18" stroke-linecap="round"/>
+  <path d="M304 206h292M342 266h216M382 326h136" stroke="#0b67b2" stroke-width="18" stroke-linecap="round"/>
+  <path d="M570 430c78-86 168-84 216 0-58 55-144 55-216 0z" fill="#0b67b2"/>
+  <path d="M610 430c48-44 100-44 136 0-38 25-88 25-136 0z" fill="#8fd3ff"/>
+  <g fill="none" stroke="#8fd3ff" stroke-width="12" stroke-linecap="round" opacity=".9">
+    <path d="M636 182c46 30 78 77 84 132"/>
+    <path d="M670 134c78 54 126 133 136 226"/>
+  </g>
+</svg>

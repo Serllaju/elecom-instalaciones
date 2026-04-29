@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Aire acondicionado instalado">
+  <rect width="900" height="700" fill="#e7f2fb"/>
+  <rect x="96" y="120" width="708" height="250" rx="28" fill="#fff" stroke="#d9e3ec" stroke-width="6"/>
+  <rect x="158" y="194" width="584" height="40" rx="20" fill="#0b67b2"/>
+  <rect x="158" y="274" width="584" height="28" rx="14" fill="#d9e3ec"/>
+  <circle cx="706" cy="314" r="18" fill="#21a65b"/>
+  <g stroke="#0b67b2" stroke-width="14" stroke-linecap="round" opacity=".75">
+    <path d="M230 440c-44 38-44 76 0 114"/>
+    <path d="M450 440c-44 38-44 76 0 114"/>
+    <path d="M670 440c-44 38-44 76 0 114"/>
+  </g>
+  <g stroke="#8fd3ff" stroke-width="10" stroke-linecap="round">
+    <path d="M280 442c-34 31-34 62 0 93"/>
+    <path d="M500 442c-34 31-34 62 0 93"/>
+    <path d="M720 442c-34 31-34 62 0 93"/>
+  </g>
+</svg>

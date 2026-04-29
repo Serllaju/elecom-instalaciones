@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Trabajo de fontanería">
+  <rect width="900" height="700" fill="#f5f8fb"/>
+  <rect x="80" y="98" width="740" height="500" rx="30" fill="#fff" stroke="#d9e3ec" stroke-width="6"/>
+  <path d="M238 230h330c78 0 142 64 142 142v70" fill="none" stroke="#0b67b2" stroke-width="56" stroke-linecap="round"/>
+  <path d="M238 230h330c78 0 142 64 142 142v70" fill="none" stroke="#8fd3ff" stroke-width="28" stroke-linecap="round"/>
+  <rect x="164" y="184" width="142" height="92" rx="16" fill="#0f2538"/>
+  <path d="M661 452c0 44 98 44 98 0 0-30-49-88-49-88s-49 58-49 88z" fill="#0b67b2"/>
+  <rect x="168" y="440" width="250" height="42" rx="21" fill="#d9e3ec"/>
+  <rect x="206" y="498" width="172" height="42" rx="21" fill="#d9e3ec"/>
+</svg>

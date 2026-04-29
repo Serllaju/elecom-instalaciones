@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Paneles solares en cubierta">
+  <rect width="900" height="700" fill="#e7f2fb"/>
+  <circle cx="720" cy="128" r="70" fill="#f2a900"/>
+  <path d="M86 526 450 250l364 276z" fill="#0f2538"/>
+  <path d="M144 526h612L450 298z" fill="#263747"/>
+  <g stroke="#8fd3ff" stroke-width="6">
+    <rect x="264" y="354" width="140" height="90" rx="8" fill="#0b67b2"/>
+    <rect x="424" y="354" width="140" height="90" rx="8" fill="#0b67b2"/>
+    <rect x="344" y="462" width="140" height="90" rx="8" fill="#0b67b2"/>
+    <rect x="504" y="462" width="140" height="90" rx="8" fill="#0b67b2"/>
+    <path d="M334 354v90M264 399h140M494 354v90M424 399h140M414 462v90M344 507h140M574 462v90M504 507h140"/>
+  </g>
+</svg>
