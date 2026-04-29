@@ -3,23 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ELECOM Instalaciones | Electricidad y fontanería en Mallorca</title>
+    <title>ELECOM Instalaciones | Electricista y Fontanero en Mallorca</title>
     <meta
       name="description"
-      content="ELECOM Instalaciones en Mallorca: electricidad, fontanería, climatización, placas solares y antenas TV/SAT para hogares y empresas. Contacto por WhatsApp."
+      content="Electricista, fontanero, aire acondicionado, placas solares y antenas en Mallorca. ELECOM Instalaciones ofrece soluciones técnicas para hogares y empresas."
     />
     <meta
       name="keywords"
-      content="electricista Mallorca, fontanero Mallorca, instalación aire acondicionado Mallorca, placas solares Mallorca, antenas Mallorca"
+      content="electricista Mallorca, fontanero Mallorca, instalación aire acondicionado Mallorca, placas solares Mallorca, antenas Mallorca, ELECOM"
     />
+    <meta name="author" content="ELECOM Instalaciones" />
     <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="ELECOM Instalaciones en Mallorca" />
+    <meta property="og:title" content="ELECOM Instalaciones | Electricista y Fontanero en Mallorca" />
     <meta
       property="og:description"
-      content="Soluciones profesionales de electricidad, fontanería, climatización, energía solar y antenas en toda Mallorca."
+      content="Electricidad, fontanería, climatización, energía solar y antenas en Mallorca. Presupuestos sin compromiso por WhatsApp."
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
+    <meta property="og:image" content="https://elecom-instalaciones.vercel.app/assets/hero.jpg" />
     <link rel="canonical" href="https://elecom-instalaciones.vercel.app/" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
@@ -30,32 +32,27 @@
         "@type": "LocalBusiness",
         "name": "ELECOM Instalaciones",
         "description": "Empresa de electricidad, fontanería, climatización, energía solar y antenas TV/SAT en Mallorca.",
-        "areaServed": "Mallorca",
+        "image": "https://elecom-instalaciones.vercel.app/assets/hero.jpg",
         "telephone": "+34 650 59 81 41",
+        "areaServed": "Mallorca",
         "url": "https://elecom-instalaciones.vercel.app/",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Mallorca",
+          "addressRegion": "Islas Baleares",
           "addressCountry": "ES"
         },
-        "serviceType": [
-          "Electricidad",
-          "Fontanería",
-          "Climatización",
-          "Energía solar",
-          "Antenas TV/SAT"
-        ]
+        "priceRange": "€€",
+        "openingHours": "Mo-Fr 08:00-19:00",
+        "serviceType": ["Electricidad", "Fontanería", "Climatización", "Energía solar", "Antenas TV/SAT"]
       }
     </script>
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#inicio" aria-label="ELECOM Instalaciones">
-        <span class="brand-mark">E</span>
-        <span>
-          <strong>ELECOM</strong>
-          <small>Instalaciones Mallorca</small>
-        </span>
+        <span class="brand-logo">ELEC<span>OM</span></span>
+        <small>Instalaciones Mallorca</small>
       </a>
       <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
         <span></span>
@@ -64,216 +61,226 @@
       </button>
       <nav class="site-nav" aria-label="Navegación principal">
         <a href="#servicios">Servicios</a>
-        <a href="#confianza">Por qué ELECOM</a>
-        <a href="#trabajos">Trabajos</a>
-        <a href="#ubicacion">Mallorca</a>
-        <a class="nav-cta js-whatsapp" href="#">WhatsApp</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#resenas">Reseñas</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
       </nav>
+      <a class="header-phone" href="tel:+34650598141">+34 650 59 81 41</a>
     </header>
 
     <main>
       <section class="hero" id="inicio">
-        <div class="hero-copy">
-          <p class="eyebrow">Electricidad, fontanería y soluciones técnicas</p>
-          <h1>Instalaciones eléctricas y fontanería en Mallorca</h1>
-          <p class="hero-subtitle">Soluciones profesionales para hogares y empresas.</p>
-          <p class="trust-line">Más de 15 años ofreciendo soluciones técnicas en Mallorca.</p>
-          <div class="hero-actions">
-            <a class="button primary js-whatsapp" href="#">Contactar por WhatsApp</a>
-            <a class="button secondary" href="#contacto">Solicitar presupuesto</a>
+        <img class="hero-bg" src="assets/hero.jpg" alt="Electricista profesional trabajando en Mallorca" />
+        <div class="hero-overlay"></div>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="pill">Trabajamos en toda Mallorca</p>
+            <h1>Instalaciones eléctricas y fontanería en <span>Mallorca</span></h1>
+            <p class="hero-subtitle">
+              Soluciones profesionales para hogares y empresas. Más de 10 años ofreciendo
+              soluciones técnicas en Mallorca.
+            </p>
+            <div class="hero-actions">
+              <a class="button whatsapp js-whatsapp" href="#">Contactar por WhatsApp</a>
+              <a class="button ghost js-budget" href="#">Solicitar presupuesto</a>
+            </div>
+            <div class="hero-trust">
+              <span>Boletines oficiales</span>
+              <span>Valorados 5 estrellas</span>
+              <span>Toda la isla</span>
+            </div>
           </div>
-        </div>
-        <div class="hero-media" aria-label="Técnico profesional revisando una instalación eléctrica">
-          <img
-            src="assets/hero-elecom.svg"
-            alt="Técnico revisando un cuadro eléctrico en Mallorca"
-          />
-          <div class="hero-badge">
-            <strong>Servicio integral</strong>
-            <span>Particulares y empresas</span>
+          <div class="hero-card">
+            <img src="assets/hero.jpg" alt="Instalación eléctrica profesional" />
+            <div class="stats">
+              <div><strong>+10</strong><span>años</span></div>
+              <div><strong>5</strong><span>áreas</span></div>
+              <div><strong>100%</strong><span>Mallorca</span></div>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="section services" id="servicios">
-        <div class="section-heading">
-          <p class="eyebrow">Servicios en toda la isla</p>
-          <h2>Especialistas en instalaciones y mantenimiento</h2>
-          <p>
-            ELECOM Instalaciones ofrece atención técnica en Mallorca para reformas,
-            averías, nuevas instalaciones y mejoras de eficiencia energética.
-          </p>
+        <div class="section-head">
+          <p class="eyebrow">Nuestros servicios</p>
+          <h2>Soluciones técnicas integrales en Mallorca</h2>
+          <p>Particulares y empresas. Todo lo que necesitas para tu instalación, en manos de profesionales.</p>
         </div>
         <div class="service-grid">
           <article class="service-card">
-            <span class="service-icon">🔌</span>
+            <span class="icon">⚡</span>
             <h3>Electricidad</h3>
-            <p>
-              Electricista en Mallorca para instalaciones eléctricas completas,
-              reformas, boletines eléctricos y reparación de averías.
-            </p>
+            <p>Electricistas autorizados en Mallorca para viviendas, comercios y empresas.</p>
             <ul>
-              <li>Instalaciones completas</li>
+              <li>Instalaciones eléctricas completas</li>
               <li>Reformas eléctricas</li>
-              <li>Boletines eléctricos</li>
-              <li>Averías urgentes</li>
+              <li>Boletines eléctricos CIE</li>
+              <li>Averías y urgencias</li>
             </ul>
           </article>
           <article class="service-card">
-            <span class="service-icon">🚰</span>
+            <span class="icon">💧</span>
             <h3>Fontanería</h3>
-            <p>
-              Fontanero en Mallorca para instalaciones, reparaciones, localización
-              de fugas y reformas de baños con acabados cuidados.
-            </p>
+            <p>Fontaneros profesionales en Mallorca para reparaciones y nuevas instalaciones.</p>
             <ul>
               <li>Instalaciones de agua</li>
-              <li>Reparaciones</li>
-              <li>Fugas</li>
+              <li>Reparaciones rápidas</li>
+              <li>Detección de fugas</li>
               <li>Reformas de baños</li>
             </ul>
           </article>
           <article class="service-card">
-            <span class="service-icon">❄</span>
+            <span class="icon">❄</span>
             <h3>Climatización</h3>
-            <p>
-              Instalación de aire acondicionado en Mallorca, mantenimiento y
-              reparación para viviendas, locales y oficinas.
-            </p>
+            <p>Instalación y mantenimiento de aire acondicionado en hogares, locales y oficinas.</p>
             <ul>
               <li>Aire acondicionado</li>
-              <li>Mantenimiento</li>
-              <li>Reparación</li>
-              <li>Equipos eficientes</li>
+              <li>Mantenimiento preventivo</li>
+              <li>Reparación de equipos</li>
+              <li>Asesoramiento técnico</li>
             </ul>
           </article>
           <article class="service-card">
-            <span class="service-icon">☀</span>
+            <span class="icon">☀</span>
             <h3>Energía solar</h3>
-            <p>
-              Instalación de placas solares en Mallorca con asesoramiento energético
-              para optimizar consumo y reducir costes.
-            </p>
+            <p>Placas solares en Mallorca para reducir consumo y mejorar la eficiencia energética.</p>
             <ul>
-              <li>Placas solares</li>
-              <li>Asesoramiento</li>
-              <li>Optimización de consumo</li>
+              <li>Instalación fotovoltaica</li>
+              <li>Estudio de consumo</li>
+              <li>Optimización energética</li>
               <li>Soluciones a medida</li>
             </ul>
           </article>
           <article class="service-card">
-            <span class="service-icon">📡</span>
+            <span class="icon">📡</span>
             <h3>Antenas TV / SAT</h3>
-            <p>
-              Instalación y reparación de antenas en Mallorca, ajuste de señal TV
-              y sistemas SAT para comunidades, viviendas y negocios.
-            </p>
+            <p>Instalación, ajuste y reparación de antenas en viviendas, comunidades y negocios.</p>
             <ul>
-              <li>Instalación de antenas</li>
+              <li>Antenas TV y satélite</li>
               <li>Ajuste de señal</li>
-              <li>Reparación</li>
-              <li>TV y satélite</li>
+              <li>Reparación de averías</li>
+              <li>Comunidades y particulares</li>
             </ul>
+          </article>
+          <article class="service-card highlighted">
+            <span class="icon">✓</span>
+            <h3>Presupuesto claro</h3>
+            <p>Cuéntanos qué necesitas y te orientamos por WhatsApp sin compromiso.</p>
+            <a class="text-link js-budget" href="#">Solicitar presupuesto</a>
           </article>
         </div>
       </section>
 
-      <section class="section why" id="confianza">
-        <div class="why-copy">
+      <section class="split-section" id="nosotros">
+        <div>
           <p class="eyebrow">Por qué ELECOM</p>
-          <h2>Confianza técnica con trato cercano</h2>
+          <h2>Profesionalidad técnica con trato cercano</h2>
           <p>
-            Trabajamos con claridad desde el primer contacto: escuchamos la necesidad,
-            valoramos la mejor solución y explicamos cada presupuesto de forma sencilla.
+            ELECOM Instalaciones combina experiencia, claridad y compromiso. Atendemos
+            cada proyecto con comunicación directa, presupuestos transparentes y soluciones
+            pensadas para durar.
           </p>
+          <a class="button primary js-whatsapp" href="#">Hablar con ELECOM</a>
         </div>
-        <div class="why-list">
-          <div><strong>Experiencia técnica</strong><span>Soluciones pensadas para durar.</span></div>
-          <div><strong>Atención personalizada</strong><span>Trato directo y seguimiento.</span></div>
-          <div><strong>Hogares y empresas</strong><span>Servicio adaptado a cada espacio.</span></div>
-          <div><strong>Compromiso profesional</strong><span>Orden, puntualidad y responsabilidad.</span></div>
-          <div><strong>Presupuestos claros</strong><span>Sin sorpresas ni letra pequeña.</span></div>
+        <div class="benefits">
+          <article><strong>Experiencia técnica</strong><span>Soluciones seguras para cada instalación.</span></article>
+          <article><strong>Atención personalizada</strong><span>Trato directo antes, durante y después.</span></article>
+          <article><strong>Particulares y empresas</strong><span>Nos adaptamos a viviendas, locales y oficinas.</span></article>
+          <article><strong>Compromiso</strong><span>Orden, puntualidad y trabajo bien rematado.</span></article>
         </div>
       </section>
 
-      <section class="section reviews" aria-labelledby="reviews-title">
-        <div class="section-heading compact">
+      <section class="section reviews" id="resenas">
+        <div class="section-head center">
           <p class="eyebrow">Reseñas</p>
-          <h2 id="reviews-title">Clientes que ya confían en ELECOM</h2>
+          <h2>Clientes que ya confían en ELECOM</h2>
         </div>
         <div class="review-grid">
           <article class="review-card">
-            <span class="stars">★★★★★</span>
-            <p>"Nos resolvieron una avería eléctrica en casa con rapidez y mucha claridad."</p>
+            <div class="stars">★★★★★</div>
+            <p>"Servicio rápido y muy profesional. Nos explicaron la avería eléctrica con claridad."</p>
             <strong>María P.</strong>
+            <span>Palma</span>
           </article>
           <article class="review-card">
-            <span class="stars">★★★★★</span>
-            <p>"Instalación de aire acondicionado limpia, puntual y bien explicada."</p>
+            <div class="stars">★★★★★</div>
+            <p>"Instalación de aire acondicionado limpia, puntual y con muy buen trato."</p>
             <strong>Jaume R.</strong>
+            <span>Calvià</span>
           </article>
           <article class="review-card">
-            <span class="stars">★★★★★</span>
-            <p>"Presupuesto claro para placas solares y muy buen seguimiento del trabajo."</p>
+            <div class="stars">★★★★★</div>
+            <p>"Presupuesto claro para placas solares y ejecución impecable."</p>
             <strong>Empresa local</strong>
+            <span>Inca</span>
           </article>
         </div>
       </section>
 
-      <section class="section gallery" id="trabajos">
-        <div class="section-heading">
+      <section class="section gallery" id="galeria">
+        <div class="section-head">
           <p class="eyebrow">Galería</p>
-          <h2>Trabajos realizados</h2>
-          <p>Imágenes orientativas para sustituir por fotografías reales de ELECOM.</p>
+          <h2>Trabajos realizados en Mallorca</h2>
+          <p>Instalaciones, reformas y proyectos técnicos para clientes particulares y empresas.</p>
         </div>
         <div class="gallery-grid">
-          <figure>
-            <img src="assets/electricidad.svg" alt="Instalación eléctrica" />
-            <figcaption>Instalaciones eléctricas</figcaption>
+          <figure class="featured">
+            <img src="assets/gallery-electrico.jpg" alt="Instalación eléctrica en vivienda en Mallorca" />
+            <figcaption>Instalación eléctrica</figcaption>
           </figure>
           <figure>
-            <img src="assets/fontaneria.svg" alt="Reforma de baño y fontanería" />
-            <figcaption>Reformas y fontanería</figcaption>
+            <img src="assets/gallery-solar.jpg" alt="Placas solares instaladas en Mallorca" />
+            <figcaption>Energía solar</figcaption>
           </figure>
           <figure>
-            <img src="assets/climatizacion.svg" alt="Instalación de aire acondicionado" />
+            <img src="assets/gallery-fontaneria.jpg" alt="Reforma de baño y fontanería en Mallorca" />
+            <figcaption>Reforma fontanería</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/gallery-aire.jpg" alt="Instalación de aire acondicionado en Mallorca" />
             <figcaption>Aire acondicionado</figcaption>
           </figure>
           <figure>
-            <img src="assets/solar.svg" alt="Paneles solares en cubierta" />
-            <figcaption>Paneles solares</figcaption>
+            <img src="assets/gallery-cuadro.jpg" alt="Cuadro eléctrico instalado en Mallorca" />
+            <figcaption>Cuadros eléctricos</figcaption>
           </figure>
           <figure>
-            <img src="assets/antenas.svg" alt="Antena de televisión y satélite" />
-            <figcaption>Cuadros eléctricos</figcaption>
+            <img src="assets/gallery-antenas.jpg" alt="Instalación de antena TV en Mallorca" />
+            <figcaption>Antenas TV / SAT</figcaption>
           </figure>
         </div>
       </section>
 
       <section class="cta" id="contacto">
         <div>
-          <p class="eyebrow">Contacto directo</p>
           <h2>¿Necesitas un profesional en Mallorca?</h2>
-          <p>
-            Cuéntanos qué necesitas y te responderemos por WhatsApp para valorar el
-            trabajo y preparar un presupuesto claro.
-          </p>
+          <p>Escríbenos por WhatsApp y te respondemos cuanto antes. Presupuesto sin compromiso.</p>
         </div>
-        <a class="button primary large js-whatsapp" href="#">Escríbenos por WhatsApp</a>
+        <div class="cta-actions">
+          <a class="button whatsapp js-whatsapp" href="#">Escríbenos por WhatsApp</a>
+          <a class="button ghost-light" href="tel:+34650598141">Llamar ahora</a>
+        </div>
       </section>
 
       <section class="section location" id="ubicacion">
         <div class="location-copy">
           <p class="eyebrow">Ubicación</p>
-          <h2>Servicio en toda Mallorca</h2>
+          <h2>Trabajamos en toda la isla</h2>
           <p>
-            Empresa de electricidad y fontanería en Mallorca, trabajando en toda la
-            isla para particulares, comunidades, locales comerciales y empresas.
+            Empresa de electricidad y fontanería en Mallorca, atendiendo Palma,
+            Inca, Manacor, Calvià, Llucmajor, Alcúdia, Sóller y toda la isla.
           </p>
+          <div class="contact-list">
+            <a href="tel:+34650598141">+34 650 59 81 41</a>
+            <span>Mallorca, Islas Baleares</span>
+            <span>Lunes a viernes: 8:00 - 19:00</span>
+          </div>
         </div>
         <div class="map-wrap">
           <iframe
-            title="Mapa de Mallorca"
+            title="Mapa de Mallorca - ELECOM Instalaciones"
             src="https://www.google.com/maps?q=Mallorca&output=embed"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -284,14 +291,16 @@
 
     <footer class="site-footer">
       <div>
-        <strong>ELECOM Instalaciones</strong>
+        <span class="brand-logo footer-logo">ELEC<span>OM</span></span>
         <p>Electricidad, fontanería, climatización, energía solar y antenas en Mallorca.</p>
       </div>
-      <a class="js-whatsapp" href="#">Contactar por WhatsApp</a>
+      <div>
+        <strong>Contacto</strong>
+        <a href="tel:+34650598141">+34 650 59 81 41</a>
+        <a class="js-whatsapp" href="#">WhatsApp</a>
+      </div>
     </footer>
 
-    <a class="floating-whatsapp js-whatsapp" href="#" aria-label="Contactar por WhatsApp">
-      WhatsApp
-    </a>
+    <a class="floating-whatsapp js-whatsapp" href="#" aria-label="Contactar por WhatsApp">WhatsApp</a>
   </body>
 </html>
