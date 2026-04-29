@@ -21,6 +21,7 @@ Sube todos los archivos de esta carpeta al repositorio:
 - `sitemap.xml`
 - `vercel.json`
 - `README.md`
+- carpeta `assets`
 
 ## 3. Publicar en Vercel
 

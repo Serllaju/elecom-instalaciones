@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Reforma técnica e instalaciones">
+  <rect width="900" height="700" fill="#e7f2fb"/>
+  <rect x="120" y="120" width="660" height="460" rx="30" fill="#fff" stroke="#d9e3ec" stroke-width="6"/>
+  <rect x="190" y="190" width="180" height="280" rx="12" fill="#0b67b2"/>
+  <rect x="420" y="190" width="290" height="80" rx="12" fill="#8fd3ff"/>
+  <rect x="420" y="310" width="290" height="38" rx="19" fill="#d9e3ec"/>
+  <rect x="420" y="382" width="220" height="38" rx="19" fill="#d9e3ec"/>
+  <path d="M226 506h448" stroke="#0f2538" stroke-width="22" stroke-linecap="round"/>
+  <path d="M222 508l98-98" stroke="#f2a900" stroke-width="30" stroke-linecap="round"/>
+  <path d="M318 412l38-38" stroke="#0f2538" stroke-width="22" stroke-linecap="round"/>
+</svg>

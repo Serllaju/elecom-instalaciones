@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Cuadro eléctrico profesional">
+  <rect width="900" height="700" fill="#e7f2fb"/>
+  <rect x="120" y="74" width="660" height="552" rx="28" fill="#fff" stroke="#d9e3ec" stroke-width="6"/>
+  <rect x="190" y="140" width="520" height="84" rx="12" fill="#0b67b2"/>
+  <g fill="#8fd3ff">
+    <rect x="190" y="280" width="110" height="150" rx="12"/>
+    <rect x="330" y="280" width="110" height="150" rx="12"/>
+    <rect x="470" y="280" width="110" height="150" rx="12"/>
+    <rect x="610" y="280" width="100" height="150" rx="12"/>
+  </g>
+  <g stroke="#0f2538" stroke-width="16" stroke-linecap="round">
+    <path d="M230 500c70-90 130-90 200 0"/>
+    <path d="M430 500c70-90 130-90 200 0"/>
+  </g>
+  <circle cx="230" cy="500" r="20" fill="#f2a900"/>
+  <circle cx="430" cy="500" r="20" fill="#21a65b"/>
+  <circle cx="630" cy="500" r="20" fill="#ef5b5b"/>
+</svg>
